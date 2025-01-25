@@ -1,0 +1,513 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url(/image\ copy\ 12.png ) ;
+    background-size: 1900px;
+    background-repeat: no-repeat;
+   
+}
+
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.container button{
+    width: 120px;
+    height: 46px;
+    background-color: rgba(250, 132, 67, 1);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    
+    margin-left: 700px;
+   
+  
+
+}
+.header {
+    background-color: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   width: 100%;
+   position: relative;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(66, 167, 195, 1);
+    margin-top: 1em;
+    margin-left: 110px;
+    font-family: "Roboto", serif;
+}
+
+.nav{
+    margin-right: 300px;
+}
+
+
+.nav a {
+    justify-content: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: #333;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    font-family: "Lato", serif;
+    font-style: normal;
+    position: relative;
+    top: 30px;
+}
+
+
+.hero {
+    display: flex;
+    margin-left: 45px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Poppins", serif;
+    
+}
+
+
+.hero-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333333;
+   
+}
+
+.hero-text p {
+    margin-top: -25px;
+    color: #333333; 
+   
+}
+
+.app-buttons button {
+    margin-right: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    
+}
+
+
+
+.hero-image img {
+    margin-bottom: 40px;
+
+}
+.bata{
+    position: relative;
+    top: -4px;
+    margin-left: 90px;
+}
+
+.cards{
+    width: 280px;
+    height: 332px;
+    background-color:rgb(240, 235, 235);
+    border-radius: 10px;
+    margin-top: 60px;
+    font-family: "Lato", serif;
+    border: 1px;
+    font-style: normal;
+    transition: width 2s, height 2s, transform 2s;
+}
+.cards:hover{
+width: 10px;
+}
+.text{
+margin-left: 23px;
+
+}
+.day{
+margin-top: -8px;
+font-size: 20px;
+
+}
+.days{
+    margin-top: 5px;
+    color: rgba(99, 99, 99, 1);
+   
+}
+.sum{
+    margin-top: 7px;
+    display: flex;
+}
+.sum1{
+    color:rgba(66, 167, 195, 1);
+}
+.sum2{
+   color: rgba(52, 127, 144, 1); 
+   margin-left: 5px;
+   font-size: 12px;
+   margin-top: 3px;
+}
+.text1{
+    color: rgba(99, 99, 99, 1) ;
+    display: flex;
+    margin-bottom: 18px;
+    margin-top: -11px;
+}
+.barat{
+    margin-left: 6px;
+    margin-top: 3px;
+    font-size: 9px;
+}
+.popular{
+    font-size: 45px;
+    
+    font-family: "Lato", serif;
+    font-style: normal;
+
+}
+.all2
+.all{
+    margin-left: 110px;
+    margin-top: 30px;
+   
+    
+}
+.text2{
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgba(51, 51, 51, 1);
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+.cardss{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 190px;
+
+}
+
+.cardds{
+    width: 280px;
+    height: 332px;
+    background-color:rgb(240, 235, 235);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+
+.carddds{
+    width: 280px;
+    height: 332px;
+    background-color:rgb(240, 235, 235);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+
+.cardddds{
+    width: 280px;
+    height: 332px;
+    background-color:rgb(240, 235, 235);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+
+.third{
+    display: flex;
+    max-width: 1900px;
+   
+}
+
+.thirdimg{
+    margin-left: 80px;
+    margin-top: 190px;
+    z-index: 1;
+}
+.text33{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+   
+    font-family: "Lato", serif;
+    font-style: normal;
+   
+}
+
+.thirdtext{
+    margin-top: 230px;
+    font-size: 20px;
+   
+}
+.thirdtext2{
+    margin-top: -25px;
+    font-size: 23px;
+}
+
+.thirdcard{
+    display: flex;
+    flex-direction: column;
+    margin-top: -6px;
+    margin-left: 100px;
+}
+.sss{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.thirdcard1{
+    
+    display: flex;
+    font-family: "Lato", serif;
+    font-style: normal;
+    border-radius: 10px;
+    box-shadow: 10px 0px 20px 10px rgba(78, 76, 76, 0.2)
+}
+.thirdh1{
+margin-left: 25px;
+}
+.cardimage{
+    margin-top: 15px;
+}
+.thirdh1 p{
+margin-top: -16px;
+}
+.thirdcard2{
+   
+    display: flex;
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+.thirdcard3{
+    
+    display: flex;
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+.thirdcard4{
+    
+    display: flex;
+    font-family: "Lato", serif;
+    font-style: normal;
+}
+.thirdh2{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.thirdcardtext2{
+display: flex;
+}
+.thirdp{
+    margin-left: 15px;
+    margin-top: -6px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+.page4{
+     display: block;     
+     width: 100%;    
+     height: auto;     
+     z-index: 2;
+     font-family: "Lato", serif;
+     font-style: normal;
+     margin-top: 5px;
+  
+}
+
+
+
+.page4box{
+    width: 455px;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -855px;
+    position: absolute;
+    box-shadow: 10px 0px 20px 10px rgba(78, 76, 76, 0.2);
+    margin-left: 325px;
+    border-radius: 3px;
+}
+.box4{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 7px;
+    
+}
+.box4 img, .box5 img{
+    border-radius: 6px;
+}
+.box6 img{
+    border-radius: 6px;
+    width: auto;
+    height: 80px;
+}
+.box4text, .box5text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.box4text h1, .box6text h1{
+    font-size: 14px;
+}
+.box5text h1{
+    font-size: 12px; 
+}
+.box6text{
+    margin-left: 10px;
+}
+.box4p, .box5p, .box6p{
+    display: flex;
+    color: rgb(157, 154, 154);
+    font-size:8px;
+    margin-top: -8px;
+    gap: 8px;
+}
+.box4text button, .box5text button, .box6text button{
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(217,238,243,255);
+    color: rgba(115,190,211,255);
+}
+
+.page5box{
+    width: 455px;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -855px;
+    position: absolute;
+    box-shadow: 10px 0px 20px 10px rgba(78, 76, 76, 0.2);
+    margin-left: 325px;
+    border-radius: 3px;
+}
+.box5{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.page42{
+    width: 290px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -47px;
+    position: absolute;
+    box-shadow: 10px 0px 20px 10px rgba(78, 76, 76, 0.2);
+    margin-left: 675px;
+    border-radius: 3px;
+    
+    
+}
+
+.page6box{
+    width: 455px;
+    height: 105px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -855px;
+    position: absolute;
+    box-shadow: 10px 0px 20px 10px rgba(78, 76, 76, 0.2);
+    margin-left: 325px;
+    border-radius: 3px;
+}
+.box6{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.page43{
+    width: 389px;
+    height: 93px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 226px;
+    position: absolute;
+    box-shadow: 10px 0px 20px 10px rgba(78, 76, 76, 0.2);
+    margin-left: 522px;
+    border-radius: 3px;
+    
+    
+}
+.page5{
+    z-index: -1;
+    position: relative;
+}
+.boxfooter{
+    width: 1300px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    opacity: 15%;
+    position: absolute;
+    left: 86px;
+bottom: 345px;
+border-radius: 15px;
+}
+.boxfooter p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 63px;
+    top: 45px;
+    font-weight: 400;
+}
+.boxfooter h1{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 60px;
+    top: 65px;
+    line-height: 50px;
+   font-weight: 400;
+}
+.siin button{
+    width: 295px;
+    height: 60px;
+    background-color: #007bff;
+    position: absolute;
+    left: 930px;
+    top: 70px;
+   border: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.siup button{
+    width: 295px;
+    height: 60px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 930px;
+    top: 152px;
+
+    border: none;
+    color:white;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px;
+    
+}

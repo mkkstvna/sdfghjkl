@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text on Image</title>
+  <style>
+    /* Container for the image and text */
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Style the image */
+    .image-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /* Style the text */
+    .image-container .text-overlay {
+      position: absolute;
+      top: 50%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2rem;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional shadow */
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="image copy 7.png" alt="Background Image">
+    <div class="text-overlay">Your Text Here</div>
+  </div>
+</body>
+</html>
